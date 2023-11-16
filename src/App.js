@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MyForm from './components/MyForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{
+      backgroundImage: `url("${process.env.PUBLIC_URL + '/assets/images/foundimg.jpg' }")`, backgroundSize: 'cover' , height: '100%', style:'background: linear-gradient(45deg, rgba(219, 185, 163, 0.296), rgba(241, 152, 107, 0.603))'
+    }}>
+      <div class="form-container">
+        <MyForm />
+      </div>
     </div>
+
   );
 }
 

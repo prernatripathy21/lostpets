@@ -1,38 +1,82 @@
-.App {
+
+body, * {
+  font-family: 'Arial', sans-serif;
+ 
+  margin: 0;
+  padding: 0px;
+}
+
+
+/* .container {
+  max-width: 700px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center; */
+/* } */
+
+h1 {
+  color: #333;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .form-background{
+  background: url('./components/img/dogimg.jpg');
+} */
+
+/* form {
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+} */
+
+/* input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ */
+
+
+/* Add some additional styles for a stylish look */
+/* .container {
+  background: linear-gradient(45deg, #f06, #63a69f);
+  color: #fff;
+}
+
+button {
+  background-color: #ff4d4d;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+} */
+
+/* Responsive styles for small screens */
+/* @media (max-width: 768px) {
+  .container {
+    width: 90%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
